@@ -1,0 +1,28 @@
+body{
+	background-color: #0C4B9E;
+}
+.downfull{
+	width:100%;
+	height:1.5em;
+	position :fixed;
+	top:97%;
+	background-color: black;
+	padding-left: 33%;
+}
+
+.blinking{
+    animation:blinkingText 1.4s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #FF736A;    }
+    49%{    color: #FF736A; }
+    50%{    color: transparent; }
+    99%{    color:#FF736A;  }
+    100%{   color: #FF736A;    }
+}
+
+.g-signin2{
+	
+	
+}
+

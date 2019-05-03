@@ -1,0 +1,21 @@
+body{
+    		background-image: url("selllibrary.jpg");
+    		background-position: center;
+    		background-size: cover;
+    		background-repeat: no-repeat;
+    		
+
+
+    	}
+ 
+
+
+@media only screen and (max-width: 800px) {
+  body {
+  	background-image: url("selllibrary.jpg");
+    		background-position: center;
+    		background-origin: cover;
+    		background-size: 150% 150%;
+
+  }
+}
